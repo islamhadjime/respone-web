@@ -2,7 +2,7 @@
 
 
 ---
-![Alt-текст](https://github.com/islamhadjime/respone-web/img/screen.jpg "SCREEN")
+![Alt-текст](https://github.com/islamhadjime/respone-web/blob/main/assets/screen.png "SCREEN")
 
 ---
 
