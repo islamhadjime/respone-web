@@ -21,7 +21,12 @@ let options = {
   },
 
 }
-function rebderData() {
+function getData() {
+  /*
+    getData( >(labels_title), > (data_count) )
+
+    YOUR GET DATA
+  */
   let labels_title = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'];
   let data_count = [12, 19, 3, 5, 2, 3]
   let data = {
@@ -37,10 +42,10 @@ function rebderData() {
 }
 function renderChart(elemnt,bar,data) {
     return new Chart(elemnt,{
-      type: `${bar}`,
+      type: bar,
       data: data,
       options
     })
 }
-renderChart(ctx1,'line',rebderData())
-renderChart(ctx2,'bar',rebderData())
+renderChart(ctx1,'line',getData())
+renderChart(ctx2,'bar',getData())
